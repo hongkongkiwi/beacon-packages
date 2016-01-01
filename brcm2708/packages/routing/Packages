@@ -1,0 +1,15 @@
+Package: kmod-nat46
+Version: 4.1.13+6-1
+Depends: kernel (=4.1.13-1-698ca69f5f5ce2c70fb35143ce5688a4), kmod-ipv6
+Source: feeds/routing/nat46
+License: GPL-2.0
+Section: kernel
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 13729
+Filename: kmod-nat46_4.1.13+6-1_brcm2708.ipk
+Size: 14541
+MD5Sum: ee6e53719fd6c03154040358727e83d4
+SHA256sum: ace3b74642a44627246a6007ff1cacdb581721cb130e819f408a155fcf4b20ea
+Description:  Stateless NAT46 translation kernel module
+

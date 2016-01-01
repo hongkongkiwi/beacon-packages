@@ -1,0 +1,6 @@
+SHA256(OpenWrt-ImageBuilder-brcm2708-bcm2708.Linux-x86_64.tar.bz2)= 533f9685059aaca6db63d71ce4edaa935b33dd479ab1073f5636d220bbeae6c5
+SHA256(OpenWrt-SDK-brcm2708-bcm2708_gcc-5.2.0_musl-1.1.11_eabi.Linux-x86_64.tar.bz2)= e1cbb506191946941821fe379546f78fa9328bc449efb80a80ad10b6f6558be7
+SHA256(OpenWrt-Toolchain-brcm2708-bcm2708_gcc-5.2.0_musl-1.1.11_eabi.Linux-x86_64.tar.bz2)= 0de7f810854ac8f71e99d1505a6b8764696f2bf01e919cd17b92a6a6773b4986
+SHA256(openwrt-brcm2708-bcm2708-rpi-ext4-sdcard.img)= f66f2cc73690d73279f4ede7cd4b5e25f4e7ba1e9d3e7d80068ae01457c7640e
+SHA256(openwrt-brcm2708-bcm2708-rpi-ext4-sdcard.img.gz)= dd4facefadbd54d3e293baed62b696fd2c4e220451b524b5c749dcf017f96d7a
+SHA256(sha256sums)= e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855

@@ -1,0 +1,71 @@
+Package: dialog
+Version: 1.2-20140112-1
+Depends: libc, libncurses
+Source: feeds/raspberry/util/dialog
+Section: utils
+Architecture: brcm2708
+Installed-Size: 73644
+Filename: dialog_1.2-20140112-1_brcm2708.ipk
+Size: 74352
+MD5Sum: abe102f97e11bcaedecf582e123a8ba6
+SHA256sum: be0d23f1f4a4ef025b55e80e3bfe70d6ebeca175501714f7d5dd845aa4773ecd
+Description:  A script-interpreter which provides a set of curses widgets.
+
+Package: kmod-uinput
+Version: 4.1.13+4.1.13-brcm2708-1
+Depends: kernel (=4.1.13-1-698ca69f5f5ce2c70fb35143ce5688a4)
+Source: feeds/raspberry/drivers/uinput
+Section: kernel
+Architecture: brcm2708
+Installed-Size: 4869
+Filename: kmod-uinput_4.1.13+4.1.13-brcm2708-1_brcm2708.ipk
+Size: 5680
+MD5Sum: 54cf9455210c68b4e6390525204aa79f
+SHA256sum: 2a454dd0910254a701a172a7507ab13ce542afd4c3fe9b4ebf6acc227524ea9b
+Description:  Adds support for user level drivers for input subsystem
+ accessible under char device 10:223 - /dev/input/uinput.
+
+Package: kmod-usbtouchscreen
+Version: 4.1.13+4.1.13-brcm2708-1
+Depends: kernel (=4.1.13-1-698ca69f5f5ce2c70fb35143ce5688a4)
+Source: feeds/raspberry/drivers/usbtouchscreen
+Section: kernel
+Architecture: brcm2708
+Installed-Size: 4158
+Filename: kmod-usbtouchscreen_4.1.13+4.1.13-brcm2708-1_brcm2708.ipk
+Size: 4948
+MD5Sum: 7d3db339e2c924712df4c665c1d8d56a
+SHA256sum: 9fe43dd4ecf9267dac2f31f474a1355cb36a62672e3a920fea3a1cfdb538ea56
+Description:  This kernel module adds support for eGalax touchscreen.
+
+Package: rpi-extendfs
+Version: 0.2-1
+Depends: libc, fdisk, resize2fs, dialog
+Source: feeds/raspberry/util/rpi-extendfs
+Section: rpi-utilities
+Architecture: brcm2708
+Installed-Size: 2032
+Filename: rpi-extendfs_0.2-1_brcm2708.ipk
+Size: 2914
+MD5Sum: 716ffa3f7c54769e88c405e113b60fb5
+SHA256sum: 26357f67146bf43db52af11ec6cec7b844dfe7ea5e19e9d1c60659000461ba31
+Description:  Menu-driven dialog using utility for extending size of root filesystem.
+ Similar to raspi-config from other distributions, but at the moment does
+ nothing more than resizing of root filesystem. Original project name was
+ rpi-config, which was supposed to be port of raspi-config for OpenWrt.
+ Instead of options from raspi-config, this only supports root fs extending. Currently.
+
+Package: rpi-update
+Version: 0.41-1
+Depends: libc, kmod-nls-iso8859-1, kmod-nls-cp437, kmod-fs-vfat, curl
+Source: feeds/raspberry/util/rpi-update
+Section: rpi-utilities
+Architecture: brcm2708
+Installed-Size: 1678
+Filename: rpi-update_0.41-1_brcm2708.ipk
+Size: 2462
+MD5Sum: c4073769c95bc80281b65795b33eb323
+SHA256sum: 65681010350b3529b65c854c1857f4ebdf001b58b507cb0d8cd2ca301bc1cd3e
+Description:  An easier way to update the firmware of your Raspberry Pi.
+ OpenWrt port of rpi-update from https://github.com/Hexxeh/rpi-update.
+

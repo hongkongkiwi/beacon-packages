@@ -1,0 +1,1139 @@
+Package: bash
+Version: 4.3.42-1
+Depends: libc, libncurses
+Source: feeds/packages/utils/bash
+License: GPL-3.0+
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: brcm2708
+Installed-Size: 336958
+Filename: bash_4.3.42-1_brcm2708.ipk
+Size: 337654
+MD5Sum: eaf5edd6d74223be9a559688fa561455
+SHA256sum: 3b311df636ccb1ebebf774a4fcf6182ac45b26f6ee026508178960cc422569d4
+Description:  Bash is an sh-compatible command language interpreter that executes
+ commands read from the standard input or from a file. Bash also
+ incorporates useful features from the Korn and C shells (ksh and csh).
+
+Package: bluelog
+Version: 1.1.2-1
+Depends: libc, bluez-libs, kmod-bluetooth
+Source: feeds/packages/utils/bluelog
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 10989
+Filename: bluelog_1.1.2-1_brcm2708.ipk
+Size: 11898
+MD5Sum: e25d080ccf3cd409fd71b46f64d4f482
+SHA256sum: 6ce3911193e94966f70341425e74db80554039f9d1b06974af2a6f9015c5f6dc
+Description:  Bluelog is a simple Bluetooth scanner designed to tell you how many
+ discoverable devices there are in an area as quickly as possible. It is
+ intended to be used as a site survey tool, identifying the number of possible
+ Bluetooth targets there are in the surrounding environment.
+
+Package: bluez-daemon
+Version: 5.33-1
+Depends: libc, bluez-libs, bluez-utils, dbus, libical
+Source: feeds/packages/utils/bluez
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 527168
+Filename: bluez-daemon_5.33-1_brcm2708.ipk
+Size: 525928
+MD5Sum: d340a0e7dd90e1cec57681d373e587f4
+SHA256sum: cc8b8f36776f17cb3868965dffde9a510ed91edd3be2e532a98360f577a26e3c
+Description:  Bluetooth daemon
+
+Package: bluez-examples
+Version: 5.33-1
+Depends: libc, python
+Source: feeds/packages/utils/bluez
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 28714
+Filename: bluez-examples_5.33-1_brcm2708.ipk
+Size: 29495
+MD5Sum: 7b4f956693db616439cd6bb24c3f3f0e
+SHA256sum: 97e4afe4e523406b68a38cc4f539047613afc7bd50aefccf0457cba460fc25a2
+Description:  contains many examples apps for bluetooth, requiring python
+
+Package: bluez-libs
+Version: 5.33-1
+Depends: libc, libpthread, kmod-bluetooth
+Source: feeds/packages/utils/bluez
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 45558
+Filename: bluez-libs_5.33-1_brcm2708.ipk
+Size: 45813
+MD5Sum: 11c963e8b5db7fdfaddd2c28786087d7
+SHA256sum: e4424c3304ad0801a17351b4f4bc4cbba1932bc950382a517022b98849721418
+Description:  Bluetooth library
+
+Package: bluez-utils
+Version: 5.33-1
+Depends: libc, bluez-libs, libpthread, librt, glib2, libncurses, libreadline
+Source: feeds/packages/utils/bluez
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 809624
+Filename: bluez-utils_5.33-1_brcm2708.ipk
+Size: 807301
+MD5Sum: 0b425348ef14ab5b85c16109798cd219
+SHA256sum: 051abf5be4c1e200e7431703b526dab5fde54b8e58999b3d5fb3527878a0568e
+Description:  Bluetooth utilities
+
+Package: certtool
+Version: 3.4.7-1
+Depends: libc, libgnutls
+Source: feeds/packages/libs/gnutls
+License: LGPLv2.1+
+Section: utils
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: brcm2708
+Installed-Size: 92157
+Filename: certtool_3.4.7-1_brcm2708.ipk
+Size: 92681
+MD5Sum: 115ed40aba139250f9ee45bcf8e200e8
+SHA256sum: aebb561ad445aff5d750e20595928b3254dbb0d9fd394d8588600c02e3e94a13
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS certtool utility.
+
+Package: cryptsetup-openssl
+Version: 1.7.0-1
+Depends: libc, libblkid, libuuid, libpopt, lvm2, libdevmapper, libopenssl
+Source: feeds/packages/utils/cryptsetup
+License: GPL-2.0+ LGPL-2.1+
+LicenseFiles: COPYING COPYING.LGPL
+Section: utils
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: brcm2708
+Installed-Size: 82036
+Filename: cryptsetup-openssl_1.7.0-1_brcm2708.ipk
+Size: 82753
+MD5Sum: f4746395e16c1ec1ede0cbb492f8c543
+SHA256sum: ffbeaac94bbd2fb5c367c1c3fe13d2dcf5f1f52d793ee51fe11bb8f958104eed
+Description:  Cryptsetup-luks
+ linked against openssl
+
+Package: cryptsetup
+Version: 1.7.0-1
+Depends: libc, libblkid, libuuid, libpopt, lvm2, libdevmapper, libgcrypt
+Source: feeds/packages/utils/cryptsetup
+License: GPL-2.0+ LGPL-2.1+
+LicenseFiles: COPYING COPYING.LGPL
+Section: utils
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: brcm2708
+Installed-Size: 82434
+Filename: cryptsetup_1.7.0-1_brcm2708.ipk
+Size: 83160
+MD5Sum: ab3de4aab062bb594570b06feeb9b888
+SHA256sum: bb4840bcdce57ef98c83d87103d25d9f406b75594150eae12bdc1f5a53bae8b0
+Description:  Cryptsetup-luks
+ linked against libgcrypt
+
+Package: dbus-utils
+Version: 1.10.4-1
+Depends: libc, dbus
+Source: feeds/packages/utils/dbus
+License: AFL-2.1
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 14731
+Filename: dbus-utils_1.10.4-1_brcm2708.ipk
+Size: 15423
+MD5Sum: 7b63e111bc17f17579fa7184525c8472
+SHA256sum: 89ff719147ffd7818528ed24ea816189f0402bdd2507dc644b46d903698ba2a4
+Description:  Simple interprocess messaging system (utilities)
+
+Package: dbus
+Version: 1.10.4-1
+Depends: libc, libexpat, libdbus
+Source: feeds/packages/utils/dbus
+License: AFL-2.1
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 89393
+Filename: dbus_1.10.4-1_brcm2708.ipk
+Size: 89530
+MD5Sum: 992c51b2ba534c50781f25b1502cb2e2
+SHA256sum: 0d35cb12b96f48fce97eca4533d5cf2158ef4fb03a5e0f89e5f36d9632d21e16
+Description:  Simple interprocess messaging system (daemon)
+
+Package: e2guardian
+Version: 3.2.0-1
+Depends: libc, libpthread, uclibcxx, zlib, libpcre
+Source: feeds/packages/net/e2guardian
+License: GPL-2.0
+Section: net
+Maintainer: Luka Perkov <luka@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 309175
+Filename: e2guardian_3.2.0-1_brcm2708.ipk
+Size: 309440
+MD5Sum: 523a9c3e90db77af91aa559c2293d551
+SHA256sum: 3d338b3e1147534c745b0ffe0d52fe6af66cc52d43d9dfbeb7a4cb19612702ee
+Description:  E2Guardian
+
+Package: ethtool
+Version: 4.2-1
+Depends: libc
+Source: feeds/packages/net/ethtool
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Matthias Schiffer <mschiffer@universe-factory.net>
+Architecture: brcm2708
+Installed-Size: 84233
+Filename: ethtool_4.2-1_brcm2708.ipk
+Size: 84688
+MD5Sum: 745bf1a0d4b6c8a9b0fe1657298d8d67
+SHA256sum: 0e69bdc5d5b6777ef0346893be67c8130df7719a88eb48a657a838404e868c2b
+Description:  ethtool is a small utility for examining and tuning your ethernet-based
+ network interface
+
+Package: git
+Version: 2.6.3-1
+Depends: libc, libopenssl, libpthread, librt
+Source: feeds/packages/net/git
+Section: net
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: brcm2708
+Installed-Size: 815261
+Filename: git_2.6.3-1_brcm2708.ipk
+Size: 815633
+MD5Sum: 15bbef80789ceffb86d6cb39c5d0ec7d
+SHA256sum: 18f546dda2e2cc7c3056f7f8d348517b15a4c224aff4004b00975f22fe5d3bc4
+Description:  Git is a free & open source, distributed version control system
+ designed to handle everything from small to very large projects
+ with speed and efficiency.
+
+Package: glib2
+Version: 2.44.1-1
+Depends: libc, zlib, libpthread, libffi, libattr
+Source: feeds/packages/libs/glib2
+Section: libs
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: brcm2708
+Installed-Size: 830594
+Filename: glib2_2.44.1-1_brcm2708.ipk
+Size: 826610
+MD5Sum: 0d92aa428964d83641fe3bdc90bdd122
+SHA256sum: e574c9b1f00b06f927903ff9693f82ad3d6174355d2ad692ee4088e7bc650f1b
+Description:  The GLib library of C routines
+
+Package: gnutls-utils
+Version: 3.4.7-1
+Depends: libc, libgnutls
+Source: feeds/packages/libs/gnutls
+License: LGPLv2.1+
+Section: utils
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: brcm2708
+Installed-Size: 217380
+Filename: gnutls-utils_3.4.7-1_brcm2708.ipk
+Size: 217585
+MD5Sum: a523ccf9f86e80f918cf96c6c1fde1a4
+SHA256sum: 790e21872e908e5504ddda87cd92be3b23efbd545a3317737554d86f2b44590e
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS gnutls-cli, gnutls-serv, psktool,
+ and srptool utilities.
+
+Package: kmod-cryptodev
+Version: 4.1.13+1.7-brcm2708-2
+Depends: kernel (=4.1.13-1-698ca69f5f5ce2c70fb35143ce5688a4), kmod-crypto-core, kmod-crypto-authenc, kmod-crypto-hash
+Source: feeds/packages/utils/cryptodev-linux
+Section: kernel
+Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
+Architecture: brcm2708
+Installed-Size: 17077
+Filename: kmod-cryptodev_4.1.13+1.7-brcm2708-2_brcm2708.ipk
+Size: 17954
+MD5Sum: ce958bd3ea479ce7454b38b2e7fd3b89
+SHA256sum: e83e2a3a92d86fa469afd71028ff99d2095e8eafda52bdfad0e1348bfc801d2e
+Description:  This is a driver for that allows to use the Linux kernel supported
+ hardware ciphers by user-space applications.
+
+Package: kmod-openvswitch
+Version: 4.1.13+2.5.0-98b94d1e7002063ce2ea3c3221fe9234cac4e124
+Depends: kernel (=4.1.13-1-698ca69f5f5ce2c70fb35143ce5688a4), kmod-stp, kmod-gre, kmod-lib-crc32c, kmod-vxlan, kmod-nf-conntrack, kmod-nf-conntrack6
+Source: feeds/packages/net/openvswitch
+License: Apache-2.0
+LicenseFiles: COPYING
+Section: kernel
+Architecture: brcm2708
+Installed-Size: 83718
+Filename: kmod-openvswitch_4.1.13+2.5.0-98b94d1e7002063ce2ea3c3221fe9234cac4e124_brcm2708.ipk
+Size: 84454
+MD5Sum: aafbd308c477df15f6030fa05c038dce
+SHA256sum: b1fe97e2edab6045932b02370a5f3ac2e8b06733a20b656ef272ef06ed905b41
+Description:  This package contains the Open vSwitch kernel moodule and bridge compat
+ module. Furthermore, it supports OpenFlow.
+
+Package: kmod-siit
+Version: 4.1.13+1.2-1
+Depends: kernel (=4.1.13-1-698ca69f5f5ce2c70fb35143ce5688a4)
+Source: feeds/packages/net/siit
+License: GPLv2+
+Section: kernel
+Maintainer: Vladimir Ulrich <admin@evl.su>
+Architecture: brcm2708
+Installed-Size: 5168
+Filename: kmod-siit_4.1.13+1.2-1_brcm2708.ipk
+Size: 6008
+MD5Sum: 55df0efcd82e3d7c3050ea3b70a4ba00
+SHA256sum: 5cb50c99ff982e561bc99b345d1988a958900c7b1a8d89533d451743a60f2e09
+Description:  Stateless IP ICMP Translation Algorithm
+
+Package: kmod-usb-serial-dmx_usb_module
+Version: 4.1.13+0.1.20130818-0.1
+Depends: kernel (=4.1.13-1-698ca69f5f5ce2c70fb35143ce5688a4), kmod-usb-serial
+Source: feeds/packages/libs/dmx_usb_module
+License: GPL-2.0
+Section: kernel
+Maintainer: Martijn Zilverschoon <martijn@friedzombie.com>
+Architecture: brcm2708
+Installed-Size: 4354
+Filename: kmod-usb-serial-dmx_usb_module_4.1.13+0.1.20130818-0.1_brcm2708.ipk
+Size: 5329
+MD5Sum: 39bb03fe10613c1a34110f458b041915
+SHA256sum: caf7625400c241971995128843f9bcbadd56cd7dbc0f901981ce91fdabc5297a
+Description:  Open DMX USB is an open USB to DMX dongle hardware design developed by Enttec.
+ The Open in Open DMX USB refers to the fact that everybody is free to use the
+ design and produce its own USB DMX Dongle without paying any licenses.
+
+Package: libattr
+Version: 20150922-1
+Depends: libc
+Source: feeds/packages/utils/attr
+License: LGPL-2.1 GPL-2.0
+LicenseFiles: doc/COPYING doc/COPYING.LGPL
+Section: libs
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: brcm2708
+Installed-Size: 6226
+Filename: libattr_20150922-1_brcm2708.ipk
+Size: 7013
+MD5Sum: 3c8e222a1ad707f936700318c966f03c
+SHA256sum: 743e9734ac839a0f0a7b0c11389afd6aebd8cc073b831b8fec03a9be2e43ef2d
+Description:  Extended attributes support
+ This package provides libattr
+
+Package: libcap
+Version: 2.24-1
+Depends: libc
+Source: feeds/packages/libs/libcap
+Section: libs
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 5463
+Filename: libcap_2.24-1_brcm2708.ipk
+Size: 6164
+MD5Sum: 6b9c9611516f183c75e1690345c189f1
+SHA256sum: a7360ed2828bf086b54122bc3e7de3626ea10806b9f6be117d379f0574e63a74
+Description:  Linux capabilities library
+
+Package: libdb47
+Version: 4.7.25.4.NC-5
+Depends: libc, libxml2
+Provides: libdb47-full
+Source: feeds/packages/libs/db47
+License: Sleepycat
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: brcm2708
+Installed-Size: 486802
+Filename: libdb47_4.7.25.4.NC-5_brcm2708.ipk
+Size: 484563
+MD5Sum: f132f1e2ecb1887b9dfc645bbb4e117b
+SHA256sum: b7c7417d2069129bd5ea532976f3a0822944e4dffa9db58cebdce435f6abecb2
+Description:  Berkeley DB library (4.7).
+
+Package: libdbus
+Version: 1.10.4-1
+Depends: libc, libpthread
+Source: feeds/packages/utils/dbus
+License: AFL-2.1
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 104988
+Filename: libdbus_1.10.4-1_brcm2708.ipk
+Size: 105080
+MD5Sum: 7ca4e6c544b98aa517f6f1285d00a43e
+SHA256sum: ba2ec6d80f329ec02a9e2e02ec6240f1dfdf3270bcb1fa1d2d7d506a52c9ed50
+Description:  Simple interprocess messaging system (library)
+
+Package: libdevmapper
+Version: 2.02.138-1
+Depends: libc, kmod-dm, libpthread
+Source: feeds/packages/utils/lvm2
+License: GPL-2.0 LGPL-2.1
+Section: libs
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: brcm2708
+Installed-Size: 151481
+Filename: libdevmapper_2.02.138-1_brcm2708.ipk
+Size: 151971
+MD5Sum: e5de6726ac55b9c63e97ecdfb4f4c2d5
+SHA256sum: fe7084ed683f4451faf697c6346235d98befef3cb627e0346a74dc3e4c4c354f
+Description:  The device-mapper is a component of the 2.6 linux kernel that supports logical
+ volume management. It is required by LVM2 and EVMS.
+
+Package: libexpat
+Version: 2.1.0-3
+Depends: libc
+Source: feeds/packages/libs/expat
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 44936
+Filename: libexpat_2.1.0-3_brcm2708.ipk
+Size: 45577
+MD5Sum: 9d8dc51d75efc163ed12a8348ba485b0
+SHA256sum: cee1f041dcf40899dbabf5ea30f314a78a9372ffd30a63139ed9920da6362c35
+Description:  A fast, non-validating, stream-oriented XML parsing library.
+
+Package: libffi
+Version: 3.0.13-1
+Depends: libc
+Source: feeds/packages/libs/libffi
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: brcm2708
+Installed-Size: 5754
+Filename: libffi_3.0.13-1_brcm2708.ipk
+Size: 6766
+MD5Sum: b89f1bbb26c22ca500b7d7a263785ba0
+SHA256sum: d96412f83440278f0828a00e0582dade8135045482e0b6700b7466d33b40f879
+Description:  The libffi library provides a portable, high level programming interface to
+ various calling conventions. This allows a programmer to call any function
+ specified by a call interface description at run-time.
+ 
+ FFI stands for Foreign Function Interface. A foreign function interface is the
+ popular name for the interface that allows code written in one language to call
+ code written in another language. The libffi library really only provides the
+ lowest, machine dependent layer of a fully featured foreign function interface.
+ A layer must exist above libffi that handles type conversions for values passed
+ between the two languages.
+
+Package: libgcrypt
+Version: 1.6.1-1
+Depends: libc, libgpg-error
+Source: feeds/packages/libs/libgcrypt
+Section: libs
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: brcm2708
+Installed-Size: 275245
+Filename: libgcrypt_1.6.1-1_brcm2708.ipk
+Size: 275329
+MD5Sum: 45f4c4d5f5f7fdb9c883b017ea56618f
+SHA256sum: 8bd6f6aa8a55572f32f1f1ae2712a60ef21b08d5cf0b5f7834859fabb1c52931
+Description:  This is a general purpose cryptographic library based on the code from
+ GnuPG. It provides functions for all cryptograhic building blocks:
+ symmetric ciphers (AES, DES, Arcfour, CAST5), hash algorithms (MD5, SHA-1,
+ RIPE-MD160, SHA-224/256, SHA-384/512), MACs (HMAC for all hash
+ algorithms), public key algorithms (RSA, DSA), large integer functions,
+ random numbers and a lot of supporting functions. Some algorithms have
+ been disabled to reduce size (Blowfish, Twofish, Serpent,
+ RC2, SEED, Camellia, CRC, MD4, TIGER-192, Whirlpool, ElGamal, ECC).
+
+Package: libgdbm
+Version: 1.11-1
+Depends: libc
+Source: feeds/packages/libs/gdbm
+License: GPL-3.0+
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: brcm2708
+Installed-Size: 16354
+Filename: libgdbm_1.11-1_brcm2708.ipk
+Size: 17078
+MD5Sum: f664fe41792dbb80ed095c353ce3ac3c
+SHA256sum: c4a7c320b95e7031f254fa5fb3e3000698866daafd3106a01d713c1c4d113e72
+Description:  GNU database manager library
+ GNU dbm is a set of database routines that use extendible hashing and
+ works similar to the standard UNIX dbm routines.
+
+Package: libgnutls
+Version: 3.4.7-1
+Depends: libc, libnettle, libgmp
+Source: feeds/packages/libs/gnutls
+License: LGPLv2.1+
+Section: libs
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: brcm2708
+Installed-Size: 358579
+Filename: libgnutls_3.4.7-1_brcm2708.ipk
+Size: 357348
+MD5Sum: b734aaf0c524efd769612a2ec059fa19
+SHA256sum: 0c317cfbdd68d4172e8b2e20380786a16205fa5add553c39ed68bc98dd5fe6e9
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS shared library, needed by other programs.
+
+Package: libgpg-error
+Version: 1.12-1
+Depends: libc
+Source: feeds/packages/libs/libgpg-error
+Section: libs
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: brcm2708
+Installed-Size: 5643
+Filename: libgpg-error_1.12-1_brcm2708.ipk
+Size: 6491
+MD5Sum: 97e11a46a626c52f2547268285841465
+SHA256sum: 248b5a1f5369a6a24010b4a9dd3b2dbf4bd9e3aa013d557dfec4ce347f4b93a2
+Description:  An helper library for common error codes and descriptions.
+ This is a library that defines common error values for all GnuPG
+ components. Among these are GPG, GPGSM, GPGME, GPG-Agent, libgcrypt,
+ Libksba, DirMngr, Pinentry, SmartCard Daemon and possibly more in the
+ future.
+
+Package: libical
+Version: 1.0-1
+Depends: libc, libpthread
+Source: feeds/packages/libs/libical
+License: LGPL-2.1 MPL-1.0
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 138514
+Filename: libical_1.0-1_brcm2708.ipk
+Size: 135847
+MD5Sum: 97cff754fb6b06a3aa55b7d1d5180423
+SHA256sum: a86b669ce42aee46f629e9ab694518b6918ab3878136f3053ec87e63212bca28
+Description:  This package provides a a read/write library of classes for object oriented
+ languages (Initial goals of PHP and Python) that implement and enforce the iCal
+ standard (RFC 2445).
+
+Package: liblzma
+Version: 5.2.2-1
+Depends: libc, libpthread
+Source: feeds/packages/utils/xz
+License: Public-Domain LGPL-2.1+ GPL-2.0+ GPL-3.0+
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 46981
+Filename: liblzma_5.2.2-1_brcm2708.ipk
+Size: 47682
+MD5Sum: 6d6ca68686d01b1063ceeb06fcd66c58
+SHA256sum: 2ccddacd2ef62f343ef8ce797ddafc0551fa8f90f53ad7f8d76738e406ae5fde
+Description:  liblzma library from XZ Utils
+
+Package: libpcre
+Version: 8.37-2
+Depends: libc
+Source: feeds/packages/libs/pcre
+License: BSD-3-Clause
+LicenseFiles: LICENCE
+Section: libs
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: brcm2708
+Installed-Size: 80672
+Filename: libpcre_8.37-2_brcm2708.ipk
+Size: 81387
+MD5Sum: d725feb330a3492fa259d597a908b5bf
+SHA256sum: a8edcec309a99fc5d74d0df3a1ab34c6d83817ce6243c1d42f9d9482da46de67
+Description:  A Perl Compatible Regular Expression library
+
+Package: libsqlite3
+Version: 3081101-1
+Depends: libc, libpthread
+Source: feeds/packages/libs/sqlite3
+License: PUBLICDOMAIN
+Section: libs
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: brcm2708
+Installed-Size: 321473
+Filename: libsqlite3_3081101-1_brcm2708.ipk
+Size: 322043
+MD5Sum: d640cda7999ce59a2889e541140e9113
+SHA256sum: 3ada84f7dfeb41b6d771f2121af0275463bab8f975d69a9dfdba40f6c1cca6ab
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains the SQLite (v3.x) shared library, used by other
+ programs.
+
+Package: libxml2
+Version: 2.9.3-1
+Depends: libc, libpthread, zlib
+Source: feeds/packages/libs/libxml2
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: brcm2708
+Installed-Size: 467558
+Filename: libxml2_2.9.3-1_brcm2708.ipk
+Size: 465115
+MD5Sum: b4b96cfd12dc0b20d69429dc63853d7b
+SHA256sum: 1fab7dd870a3fc8badda2c98acd4ec38b03e4ee53499f0e3e1e0bca25e8b1815
+Description:  A library for manipulating XML and HTML resources.
+
+Package: lvm2
+Version: 2.02.138-1
+Depends: libc, libdevmapper, libblkid, libreadline, libncurses
+Source: feeds/packages/utils/lvm2
+License: GPL-2.0 LGPL-2.1
+Section: utils
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: brcm2708
+Installed-Size: 602883
+Filename: lvm2_2.02.138-1_brcm2708.ipk
+Size: 601839
+MD5Sum: a1c0f70c2510dbbf24dd19282dc5cdd1
+SHA256sum: 1c65707644e95808e36ff072e81998886ae9b8095e9a2df6639c780e8ddc9705
+Description:  LVM2 refers to a new userspace toolset that provide logical volume management
+ facilities on linux. It is reasonably backwards-compatible with the original
+ LVM toolset.
+
+Package: lzmadec
+Version: 5.2.2-1
+Depends: libc, xz-utils, liblzma
+Source: feeds/packages/utils/xz
+License: Public-Domain LGPL-2.1+ GPL-2.0+ GPL-3.0+
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 3647
+Filename: lzmadec_5.2.2-1_brcm2708.ipk
+Size: 4374
+MD5Sum: 10bd16d38aeaa3833699ebeb51c6b5a0
+SHA256sum: b15c64aadd28bd8a244d23305345484b014f2a552676e2a609ab0e4322bee35f
+Description:  Contains: lzmadec 
+
+Package: lzmainfo
+Version: 5.2.2-1
+Depends: libc, xz-utils, liblzma
+Source: feeds/packages/utils/xz
+License: Public-Domain LGPL-2.1+ GPL-2.0+ GPL-3.0+
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 3409
+Filename: lzmainfo_5.2.2-1_brcm2708.ipk
+Size: 4135
+MD5Sum: 0984a0c5d73cce83104173f4c8c74799
+SHA256sum: 46c58f7af038ad5018678bd65c14c6ad35e6bb7a4751805a65ce8d93c786378a
+Description:  Contains: lzmainfo 
+
+Package: nano
+Version: 2.5.0-1
+Depends: libc, libncurses
+Source: feeds/packages/utils/nano
+License: GPL-3.0+
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Jonathan Bennett <JBennett@incomsystems.biz>
+Architecture: brcm2708
+Installed-Size: 28406
+Filename: nano_2.5.0-1_brcm2708.ipk
+Size: 29137
+MD5Sum: 33b4ecdcaab27d5bd8c0e02491194daa
+SHA256sum: fc1b88883daad0c700a710d6ca72e32b3339577c93a80d62ecb7285680c74c0e
+Description:  GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced clone
+ of the Pico text editor.
+
+Package: ntpd
+Version: 4.2.8p4-2
+Depends: libc, libopenssl, libpthread, libcap
+Source: feeds/packages/net/ntpd
+License: Unique
+LicenseFiles: COPYRIGHT html/copyright.html
+Section: net
+Require-User: ntp=123:ntp=123
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: brcm2708
+Installed-Size: 218097
+Filename: ntpd_4.2.8p4-2_brcm2708.ipk
+Size: 218687
+MD5Sum: 7234de8f7787499ab17a2ced19b04bed
+SHA256sum: f61320892b958d91fe94b00b16160f8ba6d635e22381cc8c094fbf7ab5f33898
+Description:  The ISC ntp suite is a collection of tools used to synchronize the
+ system clock with remote NTP time servers and run/monitor local NTP
+ servers.
+ .
+ This package contains the ntpd server.
+
+Package: python-base
+Version: 2.7.11-3
+Depends: libc, libpthread, zlib
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: brcm2708
+Installed-Size: 686991
+Filename: python-base_2.7.11-3_brcm2708.ipk
+Size: 681584
+MD5Sum: 30109c70104e6d7917b28140e8c0bea7
+SHA256sum: f4f7b81a72a8977fe7d9fa7282e9610fc8f6824e23e2e18310b63a0a617a7d44
+Description:  This package contains only the interpreter and the bare minimum
+ for the interpreter to start.
+
+Package: python-codecs
+Version: 2.7.11-3
+Depends: libc, python-light
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: brcm2708
+Installed-Size: 815165
+Filename: python-codecs_2.7.11-3_brcm2708.ipk
+Size: 791596
+MD5Sum: c4d0ba6469dc31519eed91cbfdcde3ce
+SHA256sum: 277f534f6c31be9d40c32ea815181879db6d944483f54080b015bc2b53372d21
+Description:  Python 2.7 codecs + unicode support
+
+Package: python-compiler
+Version: 2.7.11-3
+Depends: libc, python-light
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: brcm2708
+Installed-Size: 37673
+Filename: python-compiler_2.7.11-3_brcm2708.ipk
+Size: 38589
+MD5Sum: 226a47437164b3c1755bee3c246f1bc1
+SHA256sum: e0c09619c21b2e87b1592494313955f3aeca89a8a4bf42853a516665a1958eae
+Description:  Python 2.7 compiler module
+
+Package: python-ctypes
+Version: 2.7.11-3
+Depends: libc, python-light
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: brcm2708
+Installed-Size: 100532
+Filename: python-ctypes_2.7.11-3_brcm2708.ipk
+Size: 101337
+MD5Sum: e12601d6c9889779adf813086523aca6
+SHA256sum: a1830cd6b6c98d9e9f9e8d30a463fd5b8b1978897a8f9083e343fe37c34e7284
+Description:  Python 2.7 ctypes module
+
+Package: python-db
+Version: 2.7.11-3
+Depends: libc, python-light, libdb47
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: brcm2708
+Installed-Size: 110652
+Filename: python-db_2.7.11-3_brcm2708.ipk
+Size: 110909
+MD5Sum: 83c5bf4fbb89fd307eb07a63490bac94
+SHA256sum: 9d556a3915a56ee42900391d3db537f5bfa8e1f9842f104027fb06f3594d8d37
+Description:  Python 2.7 db module
+
+Package: python-decimal
+Version: 2.7.11-3
+Depends: libc, python-light
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: brcm2708
+Installed-Size: 47098
+Filename: python-decimal_2.7.11-3_brcm2708.ipk
+Size: 47999
+MD5Sum: 7dd15c43f96dde2963400bab7b6d48c2
+SHA256sum: 0d1dbaed900ef04fad0713cc312adfb5409e6c0623c5f87498ed15a97cc292fb
+Description:  Python 2.7 decimal module
+
+Package: python-distutils
+Version: 2.7.11-3
+Depends: libc, python-light
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: brcm2708
+Installed-Size: 533394
+Filename: python-distutils_2.7.11-3_brcm2708.ipk
+Size: 534226
+MD5Sum: d9b9a7fe64a68074d07cac61d33ef37b
+SHA256sum: 91b12109cc5ed2378d3c5ba8bec455b7ce6199fbd1f23b3b870ddf358519d4af
+Description:  Python 2.7 distutils
+
+Package: python-email
+Version: 2.7.11-3
+Depends: libc, python-light
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: brcm2708
+Installed-Size: 142445
+Filename: python-email_2.7.11-3_brcm2708.ipk
+Size: 143294
+MD5Sum: d0d1f6ca4c125b559292e717afee5bd4
+SHA256sum: f956f62a6c8e13c8a1e4fc2d5868e60bcd68f99ad966ec533d2b9ce85f615443
+Description:  Python 2.7 email module
+
+Package: python-gdbm
+Version: 2.7.11-3
+Depends: libc, python-light, libgdbm
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: brcm2708
+Installed-Size: 6087
+Filename: python-gdbm_2.7.11-3_brcm2708.ipk
+Size: 6871
+MD5Sum: b69510f4f0f626b4bbe432bea26a495d
+SHA256sum: a37883fee00cd27b4bb11f5e60b021161be785868bce3c4305df3e6c69e1c18f
+Description:  Python 2.7 gdbm module
+
+Package: python-light
+Version: 2.7.11-3
+Depends: libc, python-base, libffi, libbz2
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: brcm2708
+Installed-Size: 1234286
+Filename: python-light_2.7.11-3_brcm2708.ipk
+Size: 1233425
+MD5Sum: cd8f2131e7f18813958f8201ae49af4e
+SHA256sum: f02144aeb063ccff2cf816f370a08951a7a492d77758f95cd12769f79b80b66c
+Description:  This package is essentially the python-base package plus
+ a few of the rarely used (and big) libraries stripped out
+ into separate packages.
+
+Package: python-logging
+Version: 2.7.11-3
+Depends: libc, python-light
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: brcm2708
+Installed-Size: 37172
+Filename: python-logging_2.7.11-3_brcm2708.ipk
+Size: 37966
+MD5Sum: cb22aa11b64f3db206498bc3bfd7c6a2
+SHA256sum: 7f3124befd52a8d239545cfab6a23152a3297d11ee21b563ef6d3347c7d823f1
+Description:  Python 2.7 logging module
+
+Package: python-multiprocessing
+Version: 2.7.11-3
+Depends: libc, python-light
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: brcm2708
+Installed-Size: 46788
+Filename: python-multiprocessing_2.7.11-3_brcm2708.ipk
+Size: 47606
+MD5Sum: 55e9ef47e76732ea229742f73086b457
+SHA256sum: 9b6faefcbaa2617608ecc69b0c98e5e4e786fb85fd7767ddbca7e8bfb2e9b659
+Description:  Python 2.7 multiprocessing
+
+Package: python-ncurses
+Version: 2.7.11-3
+Depends: libc, python-light, libncurses
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: brcm2708
+Installed-Size: 29814
+Filename: python-ncurses_2.7.11-3_brcm2708.ipk
+Size: 30359
+MD5Sum: 0811f2d4964fa9012b6157586f02e650
+SHA256sum: 29a08386066b1d3fce883b997dadbe51173119e96832edbafcb7cc022ff03b3b
+Description:  Python 2.7 ncurses module
+
+Package: python-openssl
+Version: 2.7.11-3
+Depends: libc, python-light, libopenssl
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: brcm2708
+Installed-Size: 33894
+Filename: python-openssl_2.7.11-3_brcm2708.ipk
+Size: 34174
+MD5Sum: d89bfd54769cd2d078dd1ef35aa9034c
+SHA256sum: 8c1122d034affcee6558cbabbb4e953a88c61aa07ff78be3910e09da30afb23d
+Description:  Python 2.7 SSL module
+
+Package: python-pydoc
+Version: 2.7.11-3
+Depends: libc, python-light
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: brcm2708
+Installed-Size: 187709
+Filename: python-pydoc_2.7.11-3_brcm2708.ipk
+Size: 188597
+MD5Sum: 19089de91814b144e659a150116d38a5
+SHA256sum: af2e47c9fecbb3a057a654e0956571d61639008bf86335489bdec29c55a1e5f0
+Description:  Python 2.7 pydoc module
+
+Package: python-sqlite3
+Version: 2.7.11-3
+Depends: libc, python-light, libsqlite3
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: brcm2708
+Installed-Size: 42350
+Filename: python-sqlite3_2.7.11-3_brcm2708.ipk
+Size: 42985
+MD5Sum: 3bc16f72e4dd620dfdfde2b2208b188b
+SHA256sum: 38e99441d86b441c6777cdd1eef9cb24f92e221e6d8b8c7bc973290c12b2faa0
+Description:  Python 2.7 sqlite3 module
+
+Package: python-unittest
+Version: 2.7.11-3
+Depends: libc, python-light
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: brcm2708
+Installed-Size: 54071
+Filename: python-unittest_2.7.11-3_brcm2708.ipk
+Size: 54941
+MD5Sum: 34173dd6dd1ac7e5bda15d2fd413c809
+SHA256sum: 6219d73827df902f6f09531abe536458168308b8769bc313ca15783dbb609914
+Description:  Python 2.7 unittest module
+
+Package: python-xml
+Version: 2.7.11-3
+Depends: libc, python-light, libexpat
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: brcm2708
+Installed-Size: 152560
+Filename: python-xml_2.7.11-3_brcm2708.ipk
+Size: 153339
+MD5Sum: eb66fbde117755fad3af440409b00277
+SHA256sum: 017071669942553c1be2936c2bba02d0fdb62be5ffbd5e3860260c219fc71dba
+Description:  Python 2.7 xml libs
+
+Package: python
+Version: 2.7.11-3
+Depends: libc, python-light, python-ctypes, python-pydoc, python-multiprocessing, python-logging, python-codecs, python-sqlite3, python-xml, python-gdbm, python-email, python-distutils, python-openssl, python-compiler, python-db, python-decimal, python-unittest, python-ncurses
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: brcm2708
+Installed-Size: 105
+Filename: python_2.7.11-3_brcm2708.ipk
+Size: 1018
+MD5Sum: 4907bffba40ce7013192c4e91cea56ec
+SHA256sum: afb62375a960ffdf97d5ebfd202d7ce73cfc9fd0799041cb62e80c8f3e070ee4
+Description:  This package contains the (almost) full Python install.
+ It's python-light + all other packages.
+
+Package: rsync
+Version: 3.1.2-1
+Depends: libc, libpopt, zlib
+Source: feeds/packages/net/rsync
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: brcm2708
+Installed-Size: 155274
+Filename: rsync_3.1.2-1_brcm2708.ipk
+Size: 156083
+MD5Sum: ac13440e9748b2c54bed30a8c517950d
+SHA256sum: 3c1b9321dcacef016ee6434acadd67e7eb6f24d0baaf52e2dde5990b7053ef86
+Description:  rsync is a program that allows files to be copied to and from remote machines
+ in much the same way as rcp. It has many more options than rcp, and uses the
+ rsync remote-update protocol to greatly speed up file transfers when the
+ destination file already exists.
+ 
+ The rsync remote-update protocol allows rsync to transfer just the differences
+ between two sets of files across the network link.
+
+Package: sqlite3-cli
+Version: 3081101-1
+Depends: libc, libsqlite3, libncurses, libreadline
+Source: feeds/packages/libs/sqlite3
+License: PUBLICDOMAIN
+Section: utils
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: brcm2708
+Installed-Size: 342801
+Filename: sqlite3-cli_3081101-1_brcm2708.ipk
+Size: 343713
+MD5Sum: 82464c33593208b5ed0603eb995da144
+SHA256sum: f371bd3194545f881d53f5076c0280b6ee6c478d79f4c6b797817083aa183058
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains a terminal-based front-end to the SQLite (v3.x) library
+ that can evaluate queries interactively and display the results in multiple
+ formats.
+
+Package: squid
+Version: 3.5.12-1
+Depends: libc, libopenssl, libpthread, librt, libltdl, libstdcpp
+Source: feeds/packages/net/squid
+License: GPL-2.0
+Section: net
+Maintainer: Luka Perkov <luka@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 1815098
+Filename: squid_3.5.12-1_brcm2708.ipk
+Size: 1812773
+MD5Sum: 93c8277145d599177f864cbad995a2a1
+SHA256sum: 260d5acdcb90a99a457c60e106b658875d7bab0cbc640789c553d34d5eaba506
+Description:  Squid is a caching proxy for the Web supporting HTTP, HTTPS, FTP, and more.
+ It reduces bandwidth and improves response times by caching and reusing
+ frequently-requested web pages.
+
+Package: unrar
+Version: 5.3.8-1
+Depends: libc, uclibcxx, libpthread
+Source: feeds/packages/utils/unrar
+License: UnRAR
+LicenseFiles: license.txt
+Section: utils
+Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: brcm2708
+Installed-Size: 106924
+Filename: unrar_5.3.8-1_brcm2708.ipk
+Size: 107722
+MD5Sum: 2c2d82dc32d46733d33e6b375620ad8c
+SHA256sum: 965b4406a29653dd01a92ea80059efc80a6dd86e6c4609a6df30570e6205c46e
+Description:  UnRAR is an application that can decompress files and archives created using
+ the RAR compression scheme
+
+Package: unzip
+Version: 6.0-4
+Depends: libc
+Source: feeds/packages/utils/unzip
+License: BSD-4-Clause
+LicenseFiles: LICENSE
+Section: utils
+Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: brcm2708
+Installed-Size: 110164
+Filename: unzip_6.0-4_brcm2708.ipk
+Size: 111082
+MD5Sum: 0849f947293285c08b4de42d11faa4f5
+SHA256sum: 8e404753be1966d786a44b25499198652b5c19323c45afb6ac4f55e9ba74d378
+Description:  InfoZIP's unzip program. With the exception of multi-volume archives
+ (ie, .ZIP files that are split across several disks using PKZIP's /& option),
+ this can handle any file produced either by PKZIP, or the corresponding
+ InfoZIP zip program.
+
+Package: xz-utils
+Version: 5.2.2-1
+Depends: libc
+Source: feeds/packages/utils/xz
+License: Public-Domain LGPL-2.1+ GPL-2.0+ GPL-3.0+
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 105
+Filename: xz-utils_5.2.2-1_brcm2708.ipk
+Size: 833
+MD5Sum: b159d02b3ed94855f6b1b5bc4af3be96
+SHA256sum: 8eaad628e6b1d166cafd7fe30af2d83a225ee2263b7c834d630be67184c6ee0b
+Description:  XZ Utils (meta)
+
+Package: zip
+Version: 3.0-1
+Depends: libc
+Source: feeds/packages/utils/zip
+License: BSD-4-Clause
+LicenseFiles: LICENSE
+Section: utils
+Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: brcm2708
+Installed-Size: 167968
+Filename: zip_3.0-1_brcm2708.ipk
+Size: 168903
+MD5Sum: 3f7e2e07df79fbe76e7f52aca57fdd03
+SHA256sum: d59020e149e4342971a9278f9776ac00bcb5ed1388278aa573be261392fee899
+Description:  This is InfoZIP's zip program. It produces files that are fully
+ compatible with the popular PKZIP program; however, the command line
+ options are not identical. In other words, the end result is the same,
+ but the methods differ.
+

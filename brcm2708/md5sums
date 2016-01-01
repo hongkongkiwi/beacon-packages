@@ -1,0 +1,6 @@
+a784124ab956683ba0f2b446b89e7647 *OpenWrt-ImageBuilder-brcm2708-bcm2708.Linux-x86_64.tar.bz2
+aa1f4ab0cda3485e049a68aa51d4dedb *OpenWrt-SDK-brcm2708-bcm2708_gcc-5.2.0_musl-1.1.11_eabi.Linux-x86_64.tar.bz2
+35accc4423ebbb31b65e4aa5936500a3 *OpenWrt-Toolchain-brcm2708-bcm2708_gcc-5.2.0_musl-1.1.11_eabi.Linux-x86_64.tar.bz2
+210bc69622aad40a8381337801cb6dab *openwrt-brcm2708-bcm2708-rpi-ext4-sdcard.img
+9dcfc126a685d8565c2756d29650d2b8 *openwrt-brcm2708-bcm2708-rpi-ext4-sdcard.img.gz
+daf0efa2f6fc60c55d2c150804a58117 *sha256sums
